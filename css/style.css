@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    background: linear-gradient(#262626 , #0fa495);
+    color: white;
+}
+body > div{
+    padding: 30px;
+    text-align: center;
+    box-shadow: 2px 1px 10px .35rem #02302b80 ;
+}
+#bmiDisplay{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.811);
+    color: #000000;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
